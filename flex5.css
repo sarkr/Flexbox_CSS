@@ -1,0 +1,37 @@
+ul {
+    background-color: dodgerblue;
+    padding: 20px;
+    display: flex;
+
+    /* Justify content */
+
+    /* Default Direction => Row => Main Axis => Horizontal*/
+
+    /* The flex-start value aligns the items at the beginning of the flex container (this is by default) */
+    justify-content: flex-start;
+
+    /* The flex-end value aligns the flex items at the end of the flex container */
+    justify-content: flex-end;
+
+    /* the center value aligns the items at the center of the flex container */
+    justify-content: center;
+
+    justify-content:space-between;
+
+
+    justify-content:space-around;
+
+    justify-content:space-evenly;
+
+}
+
+li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    background-color: fuchsia;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+ul {
+    background-color: dodgerblue;
+    padding: 20px;
+    height:300px;
+    display: flex;
+    align-items:flex-end;
+}
+
+li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+}
+
+/* ALign Self */
+/* Auto(Default) => ALigns according to parents align item's property's value 
+li:first-child
+{
+    align-self: auto;
+}*/
+
+/* flex -start*/
+li:first-child{
+    align-self:flex-start;
+}
+
+li:nth-child(3){
+    align-self:center;
+}
+li:nth-child(5)
+{
+    align-self:stretch;
+}

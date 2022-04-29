@@ -1,0 +1,30 @@
+ul {
+    background-color: dodgerblue;
+    padding: 20px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+}
+
+/* Flex grow */
+
+li:nth-child(1)
+{
+    flex-grow:1;
+}
+
+li:nth-child(3)
+{
+    flex-grow:3;
+}
+
+li:nth-child(2)
+{
+    flex-grow:2;
+}

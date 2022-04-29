@@ -1,0 +1,33 @@
+ul{
+    background-color:dodgerblue;
+    padding:20px;
+    display:flex;
+    /*  Flex Direction */
+    /*Row(Default)*/
+    /*flex-direction: row;*/
+
+    /*Row Reverse */
+    /*flex-direction: row-reverse;*/
+
+    /*Column*/
+    /*flex-direction: column;*/
+
+    /*Column Reverse */
+    flex-direction:column-reverse;
+
+
+
+
+
+}
+
+li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    background-color: fuchsia;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+}

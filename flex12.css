@@ -1,0 +1,21 @@
+ul {
+    background-color: dodgerblue;
+    padding: 20px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+}
+
+/* Flex shorthand */
+
+/* Flex shorthand: [flex-grow flex-shrink flex-basis] */
+
+li:first-child{
+    flex:1 0 15rem;
+}
